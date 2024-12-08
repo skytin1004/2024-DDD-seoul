@@ -22,10 +22,17 @@ Microsoft의 Azure AI Services는 다양한 AI 리소스를 쉽고 빠르게 활
 
 ## 가이드
 
-1. [Azure 리소스 생성하기](./translations/ko/getting_started/set-up-azure-resources.md)
+- 아래 단계별로 워크샵을 진행합니다. 각 단계별로 자기주도형 학습을 하며, 단계별 시작 전 진행자가 간단한 안내 후 시작합니다.
 
-2. [Package  설치하기](./translations/ko/getting_started/install-package.md)
+  | 순서                         | 제목                                           |
+  |------------------------------|------------------------------------------------|
+  | [STEP 00](./docs/step-00.md) | Azure 리소스 생성하기                             |
+  | [STEP 01](./docs/step-01.md) | .env 파일 만들기     |
+  | [STEP 02](./docs/step-02.md) | Package 설치하기                |
+  | [STEP 03](./docs/step-03.md) | Co-op Translator을 이용해서 문서 번역해보기               |
 
-3. [.env 파일 만들기](./translations/ko/getting_started/create-env-file.md)
+## 실습 자료
 
-4. [Azure OpenAI를 이용한 간단한 챗봇 구현 코드](./example/basic-chatbot.py)
+- [.env 파일 템플릿](./example/.env.template)
+- [Azure OpenAI를 이용한 간단한 챗봇 구현 코드](./example/basic-chatbot.py)
+- [Co-op Translator GitHub](https://github.com/Azure/co-op-translator)

@@ -48,18 +48,18 @@ poetry init
 
 가상 환경이 설정되고 활성화되면 다음 단계는 필요한 종속성을 설치하는 것입니다.
 
-#### pip 사용하기 (requirements.txt에서)
+#### pip 사용하기 
 
-1. pip을 사용 중이라면, 터미널에서 다음 명령어를 입력하세요. `requirements.txt` 파일에 지정된 필수 패키지가 자동으로 설치됩니다:
+1. pip을 사용 중이라면, 터미널에서 다음 명령어를 입력하세요:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+    - 기본적인 챗봇
 
-#### Poetry 사용하기 (pyproject.toml에서)
+        ```bash
+        pip install openai python-dotenv
+        ```
 
-1. Poetry를 사용 중이라면, 터미널에서 다음 명령어를 입력하세요. `pyproject.toml` 파일에 지정된 필수 패키지가 자동으로 설치됩니다:
+    - Co-op Translator
 
-    ```bash
-    poetry install
-    ```
+        ```bash
+        pip install co-op-translator
+        ```

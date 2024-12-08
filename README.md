@@ -37,4 +37,5 @@ Microsoft의 Azure AI Services는 다양한 AI 리소스를 쉽고 빠르게 활
 - [Azure OpenAI를 이용한 간단한 챗봇 구현 코드](./example/basic-chatbot.py)
 - [Azure OpenAI를 이용한 간단한 챗봇 구현 코드 (.env 이용 버전)](./example/basic-chatbot-env.py)
 - [gitignore 파일](./example/.gitignore)
+- [발표 자료](./docs/24-12-8-workshop.pdf)
 - [Co-op Translator GitHub](https://github.com/Azure/co-op-translator)
